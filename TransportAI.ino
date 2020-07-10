@@ -92,7 +92,7 @@ void loop()
 void onSuccess(HttpResponse & response)
 {
   //digitalWrite(ledPin,HIGH);
-  Terminal.println("Succeeded");
+  Terminal.println("Success");
 }
  
 /* Error handling functions. */
